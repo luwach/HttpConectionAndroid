@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/field1"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field2"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field3"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/field4"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field5"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field6"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/field7"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field8"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+            <TextView
+                android:id="@+id/field9"
+                style="@style/game_field"
+                android:layout_width="@dimen/field_size"
+                android:layout_height="@dimen/field_size"
+                android:layout_margin="@dimen/field_margin"
+                android:background="@color/winner_color" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
